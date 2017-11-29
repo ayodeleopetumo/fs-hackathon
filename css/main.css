@@ -412,6 +412,7 @@ header a {
     var(--gradient-colour-1) 0%,
     var(--gradient-colour-2) 100%
   );
+  -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
   position: absolute;
   left: 0;
