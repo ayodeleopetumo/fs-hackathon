@@ -405,7 +405,7 @@ header a {
 
 .blog::before {
   content: '';
-  width: 17.5rem;
+  width: 18rem;
   height: 100%;
   display: inline-block;
   background: linear-gradient(
@@ -458,6 +458,12 @@ header a {
 
   .blog h3 a {
     font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .blog::before {
+    width: 34.5rem;
   }
 }
 
